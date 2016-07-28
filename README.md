@@ -1,2 +1,0 @@
-# SoccerCoordinator
-# SoccerCoordinator
