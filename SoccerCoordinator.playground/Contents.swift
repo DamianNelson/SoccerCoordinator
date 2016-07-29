@@ -28,7 +28,6 @@ let herschelKrustofski = ["Name": "Herschel Krustofski", "height": 45, "experien
 
 let totalRoster = [joeSmith, jillTanner, billBon, evaGordon, mattGill, kimmyStein, sammyAdams, karlSagan, suzanneGreenberg, salDali, joeKavalier, benFinkelstein, diegoSoto, chloeAlaska, arnoldWillis, phillipHelm, lesClay, herschelKrustofski]
 
-print(sammyAdams["Name"])
 
 // 2. Create appropriate variables and logic to sort and store players into three teams: Sharks, Dragons and Raptors. Be sure that your logic results in all teams having the same number of experienced players on each.
 
@@ -171,7 +170,4 @@ personalizedLetters(raptors)
 
 //I'm not sure exactly why every time I pull information out of the player dictionaries it comes back as Optional, maybe it has something to do with the fact I used the foundation framework... I hope that was legal!
 
-// 4. As always, please add concise and descriptive comments to your code and be sure to name your constants, variables and keys descriptively.
-
-// E.C. Also, if you would like to attain an “exceeds expectations” rating for this project, add logic to ensure that each teams’ average height is within 1.5 inches of the others. (Please note, this feature only needs to meet the 1.5inch threshold for this set of players, not for all potential future sets of players.)
 
