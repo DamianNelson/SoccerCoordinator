@@ -158,7 +158,7 @@ func personalizedLetters(team: NSArray) {
     }
     
     for player in team {
-        print("Dear \(player["guardians"]), \n Congratulations, after a rigorous audition which few survived, your child \(player["Name"]) has been assigned to the \(teamName). We eagerly await to see you on the field at our first practice \(practiceTime). \n Sincerely, \n Treehouse Soccer Academy")
+        print("Dear \(player["guardians"]!!), \n Congratulations, after a rigorous audition which few survived, your child \(player["Name"]!!) has been assigned to the \(teamName). We eagerly await to see you on the field at our first practice \(practiceTime). \n Sincerely, \n Treehouse Soccer Academy")
     }
 }
 
