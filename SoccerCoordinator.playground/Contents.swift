@@ -168,6 +168,5 @@ personalizedLetters(sharks)
 personalizedLetters(dragons)
 personalizedLetters(raptors)
 
-//I'm not sure exactly why every time I pull information out of the player dictionaries it comes back as Optional, maybe it has something to do with the fact I used the foundation framework... I hope that was legal!
-
+//I initially attempted to force unwrap the variables in the letters with one '!', to no avail. Two exclamation points did the trick, Swift must've double bagged my variables in optionality.
 
