@@ -170,3 +170,5 @@ personalizedLetters(raptors)
 
 //I initially attempted to force unwrap the variables in the letters with one '!', to no avail. Two exclamation points did the trick, Swift must've double bagged my variables in optionality.
 
+
+// E.C. Also, if you would like to attain an “exceeds expectations” rating for this project, add logic to ensure that each teams’ average height is within 1.5 inches of the others. (Please note, this feature only needs to meet the 1.5inch threshold for this set of players, not for all potential future sets of players.)
